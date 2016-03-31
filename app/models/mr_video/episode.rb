@@ -30,7 +30,7 @@ module MrVideo
     end
 
     def content_type
-      response['headers']['Content-Type'][0]
+      response['headers']['content-type'][0]
     end
 
     def recorded_at
